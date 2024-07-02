@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T15:30:35.071Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="IWkbUrbXQ77J0BO8sLT3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T18:55:22.033Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="D0W8GJNBKxxbrLv5JiUv" version="24.6.4" type="github">
   <diagram name="Page-1" id="Za8HBbDF54VoFVWuawz_">
-    <mxGraphModel>
+    <mxGraphModel dx="1678" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-1" value="IOT device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-2" value="IOT device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-3" value="IOT device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-4" value="IOT device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-5" value="IOT device&lt;div&gt;(Iotivity Stack)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-7" value="Android&amp;nbsp;&lt;div&gt;Application&lt;/div&gt;&lt;div&gt;(SmartThings/Iotivity)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Onboarding&lt;/div&gt;&lt;div&gt;- User requests&lt;/div&gt;&lt;div&gt;- routines&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-8" value="Backend Microservices&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="110" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="249" as="sourcePoint" />
+            <mxPoint x="570" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.117;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="0b9LeZnjkzCHZkzWGf1c-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="252.5" as="sourcePoint" />
+            <mxPoint x="370" y="247.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-13" value="Preprocessor&lt;div&gt;service&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-14" value="Notification&lt;div&gt;service&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.023;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0b9LeZnjkzCHZkzWGf1c-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="310" as="sourcePoint" />
+            <mxPoint x="566" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-18" value="IOT device&lt;div&gt;(Iotivity Stack)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-19" value="IOT device&lt;div&gt;(Iotivity Stack)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b9LeZnjkzCHZkzWGf1c-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0b9LeZnjkzCHZkzWGf1c-8" target="0b9LeZnjkzCHZkzWGf1c-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
