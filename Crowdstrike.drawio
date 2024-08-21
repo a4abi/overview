@@ -1,53 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="mu82V_iXrGguB6jZ2PsU">
-    <mxGraphModel dx="2003" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2983" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-1" value="Infra: Botnet: runs scripts, free unreliable.&lt;div&gt;Script, binaries.&lt;/div&gt;&lt;div&gt;Cloud resources from providers at a cost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Requirement: Hacker to find the password. using API provided by snapchat.&lt;/div&gt;&lt;div&gt;API returns true or flase.&lt;/div&gt;&lt;div&gt;GET&amp;nbsp; /api/checkpassword/nic0/&amp;nbsp;&lt;/div&gt;&lt;div&gt;{ password : XYZ} -&amp;gt; {true/false}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Constraints : 10ms to run per API&lt;/div&gt;&lt;div&gt;&amp;nbsp;concurrent requests possible&lt;/div&gt;&lt;div&gt;No rate limiting.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Known constraints : 15 char long, upper case, lower case and digits.(26+26+10)-&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;62^15 .&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Budget -&amp;gt; no fixed budget or time, but finite.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;aaa..aaa(26) -&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;aaa..aaa-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;aaa..aaz&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10^3 sec/day-&amp;gt; 10^5 requests/day.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;62^15 /100 -&amp;gt; number of bots&lt;br&gt;&lt;/div&gt;&lt;div&gt;RangeOfPassWords/ number of passwords each bots try -&amp;gt; number of bots&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;62&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="260" width="640" height="310" as="geometry" />
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-1" value="Infra: Botnet: runs scripts, free unreliable.&lt;div&gt;Script, binaries.&lt;/div&gt;&lt;div&gt;Cloud resources from providers at a cost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Requirement: Hacker to find the password. using API provided by snapchat.&lt;/div&gt;&lt;div&gt;API returns true or flase.&lt;/div&gt;&lt;div&gt;GET&amp;nbsp; /api/checkpassword/nic0/&amp;nbsp;&lt;/div&gt;&lt;div&gt;{ password : XYZ} -&amp;gt; {true/false}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Constraints : 10ms to run per API&lt;/div&gt;&lt;div&gt;&amp;nbsp;concurrent requests possible&lt;/div&gt;&lt;div&gt;No rate limiting.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Known constraints : 15 char long, upper case, lower case and digits.(26+26+10)-&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;62^15 .&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Budget -&amp;gt; no fixed budget or time, but finite.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;aaa..aaa(26) -&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;aaa..aaa-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;aaa..aaz&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10^3 sec/day-&amp;gt; 10^5 requests/day.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;62^15 /100 -&amp;gt; number of bots&lt;br&gt;&lt;/div&gt;&lt;div&gt;RangeOfPassWords/ number of passwords each bots try -&amp;gt; number of bots&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;62&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="160" width="710" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-2" value="webserver&lt;div&gt;-pick a new range&amp;nbsp;&lt;/div&gt;&lt;div&gt;-assign a botnet&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-2" value="webserver&lt;div&gt;-pick a new range&amp;nbsp;&lt;/div&gt;&lt;div&gt;-assign a botnet&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="171" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-6" value="Scripts&lt;div&gt;-request the API for the range X-Y&lt;/div&gt;&lt;div&gt;-if success report the server&lt;/div&gt;&lt;div&gt;-if on completion, report complete.&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-6" value="Scripts&lt;div&gt;-request the API for the range X-Y&lt;/div&gt;&lt;div&gt;-if success report the server&lt;/div&gt;&lt;div&gt;-if on completion, report complete.&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="590" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-7" value="Redis&lt;div&gt;range: complete&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-7" value="Redis&lt;div&gt;range: complete&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="171" y="690" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-8" value="CacheUpdateand&lt;div&gt;CleanUp&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-8" value="CacheUpdateand&lt;div&gt;CleanUp&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-9" value="MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-9" value="MQ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="730" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-10" value="Completed execution -: no password&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password found:&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-10" value="Completed execution -: no password&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password found:&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="705" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-12" value="zookeeper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-12" value="zookeeper" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="670" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.009;exitY=0.361;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="qjWE3B668ZPwpdVvbf3O-2" target="qjWE3B668ZPwpdVvbf3O-3">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.009;exitY=0.361;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="qjWE3B668ZPwpdVvbf3O-2" target="qjWE3B668ZPwpdVvbf3O-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="620" as="sourcePoint" />
             <mxPoint x="410" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-16" value="Dynamo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjWE3B668ZPwpdVvbf3O-16" value="Dynamo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="186" y="730" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="qjWE3B668ZPwpdVvbf3O-17" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;unit of work :62^15&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;10^5&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="310" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
