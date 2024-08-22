@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="DrBrgi5Xr1fq7MsX84zt">
+    <mxGraphModel dx="2983" dy="-243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Upload/download files and folders&lt;div&gt;manage the document-&lt;/div&gt;&lt;div&gt;&amp;nbsp;access control, search by filename, author, createdDate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Authentication in place&lt;/div&gt;&lt;div&gt;maxSize : 1GB/user&lt;/div&gt;&lt;div&gt;&amp;nbsp;Number of User ~ 100&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="1105" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-2" value="ManagementService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-3" value="ManagementService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-4" value="RDS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-6" value="Block storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1420" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-7" value="WebApp/MobileApp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-10" value="LB" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1380" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.989;exitY=0.584;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.083;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tDTkzEMfGTSsJfL9_UAM-7" target="tDTkzEMfGTSsJfL9_UAM-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1420" as="sourcePoint" />
+            <mxPoint x="380" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tDTkzEMfGTSsJfL9_UAM-10" target="tDTkzEMfGTSsJfL9_UAM-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1420" as="sourcePoint" />
+            <mxPoint x="380" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.994;exitY=0.373;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tDTkzEMfGTSsJfL9_UAM-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1420" as="sourcePoint" />
+            <mxPoint x="410" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1410" as="sourcePoint" />
+            <mxPoint x="430" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-17" value="Notification" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.022;exitY=0.396;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.633;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tDTkzEMfGTSsJfL9_UAM-17" target="tDTkzEMfGTSsJfL9_UAM-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1420" as="sourcePoint" />
+            <mxPoint x="380" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.6;exitY=1.062;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tDTkzEMfGTSsJfL9_UAM-3" target="tDTkzEMfGTSsJfL9_UAM-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1420" as="sourcePoint" />
+            <mxPoint x="232" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-21" value="MQ" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="172" y="1470" width="88" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.568;exitY=1.053;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tDTkzEMfGTSsJfL9_UAM-21" target="tDTkzEMfGTSsJfL9_UAM-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1420" as="sourcePoint" />
+            <mxPoint x="380" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-26" value="Users&lt;div&gt;UserID,&lt;span style=&quot;background-color: initial;&quot;&gt;Name, Location, MaxSizeAllowed, Metadata..&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;File&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UserID, FileID,FilePath,FolderLevel, FileName, filelink, CreatedOn&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AcessList&lt;/span&gt;&lt;/div&gt;&lt;div&gt;UserID, FileID, Access&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1185" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-27" value="FileLink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1448" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-28" value="GET /v1/files/folder2/&lt;div&gt;{&lt;/div&gt;&lt;div&gt;file1,&lt;/div&gt;&lt;div&gt;folder2 : {&lt;/div&gt;&lt;div&gt;file2,&lt;/div&gt;&lt;div&gt;file3}&lt;/div&gt;&lt;div&gt;folder&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="1433" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-29" value="file1 -&amp;gt;0&lt;div&gt;folder2/file2 -1&lt;/div&gt;&lt;div&gt;folder2/file3 -1&lt;/div&gt;&lt;div&gt;folde3/folder4/file4 -2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="1458" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tDTkzEMfGTSsJfL9_UAM-30" value="file1, 0&lt;div&gt;fil&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="1583" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
